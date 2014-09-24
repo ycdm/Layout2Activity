@@ -1,4 +1,4 @@
-package org.lalalu;
+package com.cy;
 
 public class WidgetInfo {
 
