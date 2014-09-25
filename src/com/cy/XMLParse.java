@@ -32,7 +32,7 @@ public class XMLParse {
             e.printStackTrace();
         }
 
-        FastCreate fastCreate = new FastCreate(handlerParseXml.getList());
-        fastCreate.getContent();
+        CodeGenerator codeGenerator = new CodeGenerator(handlerParseXml.getList());
+        System.out.println(codeGenerator.getContent2());
     }
 }
