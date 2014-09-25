@@ -12,7 +12,7 @@ import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.SAXException;
 
 public class XMLParse {
-    private static final String filePath = "C:/Users/³ÐÓ°/Desktop/activity_carouselmenu.xml";
+    private static final String filePath = "activity_main.xml";
 
     public static void main(String[] args) {
         SAXParserFactory saxfa = SAXParserFactory.newInstance();
